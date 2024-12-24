@@ -27,13 +27,6 @@ function NavTabs() {
           Potential Candidates
         </Link>
       </li>
-
-
-      <li className="nav-item">
-        <Link to="/Logout"className={currentPage === '/Logout' ? 'nav-link active' : 'nav-link'}>
-          Logout
-        </Link>
-      </li>
     </ul>
   );
 }
